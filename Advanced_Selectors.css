@@ -1,0 +1,80 @@
+/* descendant selector */
+/* section h1{
+    color:blue;
+} */
+
+/* section article h1{
+    color:blue;
+} */
+/* section article div p span{
+    background-color: aqua;
+} */
+/* section div p span{
+    background-color: aqua;
+} */
+/* section p span{
+    background-color: blueviolet;
+} */
+/* section span{
+    background-color: blueviolet;
+} */
+
+/* child selector means you can't skip parents in between */
+/* section>article>div>p>span{
+    background-color: brown;
+} */
+
+/* descendant + child selector */
+/* section p>span{
+    background-color: brown;
+} */
+
+
+/* general sibling selector */
+/* article h1~p{
+    background-color: brown;
+} */
+
+/* adjacent sibling */
+/* article h1+p+p,h1+p{
+    background-color: brown;
+} */
+/* article h1+p{
+    background-color: brown;
+} */
+
+
+/* Pseudo-class selectors */
+
+/* hover selector */
+
+/* div{
+    background-color: brown;
+    height:100px;
+    width:100px;
+}
+div:hover{
+    background-color: blueviolet;
+} */
+
+/* a:active{
+    background-color: blueviolet;
+} */
+/* 
+button:focus{
+    background-color: brown;
+} */
+
+li:nth-of-type(odd){
+    background-color: brown;
+}
+li:nth-of-type(){
+    background-color: blueviolet;
+}
+li:nth-of-type(3),
+li:nth-of-type(3*2),
+li:nth-of-type(3*3),
+{
+    background-color: aqua;
+}
+

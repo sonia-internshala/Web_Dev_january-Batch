@@ -1,0 +1,84 @@
+/* Element Selectors */
+
+/* h1{
+    color: blue;
+    font-family: cursive;
+    font-size: larger;
+}
+p{
+    border:2px solid brown;
+} */
+
+/* class Selector */
+/* group some elements */
+/* class can be different */
+
+
+/* Group Selector */
+/* h1,h2,p,h5{
+    color: blue;
+    font-family: cursive;
+    font-size: larger;
+} */
+
+/* alternative solution */
+
+/* .hello{
+    color: blue;
+    font-family: cursive;
+    font-size: larger;
+}
+.hi{
+    background-color: brown;
+}
+.whatsup{
+    background-color: blueviolet;
+}
+.abc{
+    font-size: 100px;
+}
+.def{
+    font-size: 75px;
+}
+.ghi{
+    font-size: 50px;
+}
+.jkl{
+    font-size: 20px;
+} */
+
+
+/* Id Selector */
+/* giving different id's to each tag/element */
+
+/* #heading{
+    background-color: brown;
+}
+#paragraph{
+    color:blueviolet
+} */
+
+/* Universal selector   Homework?? */
+/* asterisk */
+
+/* Attribute Selector */
+
+/* input[type="text"]{
+    background-color: aqua;
+}
+input[type="password"]{
+    background-color: brown;
+}
+a[href="https://www.google.com/"]{
+    color:chartreuse
+}
+img[src="https://gratisography.com/wp-content/uploads/2024/10/gratisography-cool-cat-800x525.jpg"]{
+    height:400px;
+    width:400px;
+} */
+
+/* input[placeholder="Enter your tex here"]{
+    background-color: blueviolet;
+} */
+
+
