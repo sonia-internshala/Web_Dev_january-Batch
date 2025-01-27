@@ -1,0 +1,39 @@
+#flexbox{
+    background-color: cadetblue;
+    display:flex;
+    flex-direction: row;
+   
+    height:1000px;
+    /* flex-wrap: wrap; */
+
+    /* main-axis->row(x-axis)
+    cross-axis->column(y-axis) */
+    justify-content:space-around;
+    /* align-items:flex-end; */
+    /* justify-content: center; */
+
+    /* flex-direction: column; */
+     /* main-axis->column(y-axis)
+    cross-axis->row(x-axis) */
+    /* justify-content:space-between;
+    align-items: center; */
+
+}
+#flexitem1{
+    height:200px;
+    width:200px;
+    background-color: blue;
+    align-content: center;
+}
+#flexitem2{
+    /*height:200px;
+    width:200px;
+    background-color: rgb(245, 26, 165);
+    align-content:flex-end;*/
+}
+#flexitem3{
+    height:200px;
+    width:200px;
+    background-color: rgb(224, 157, 13);
+    align-content: center;
+}

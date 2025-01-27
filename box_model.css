@@ -1,0 +1,17 @@
+#plot{
+    height:200px;
+    width:200px;
+    background-color: rgb(233, 13, 94);
+    margin-top:200px;
+    margin-left:300px;
+    border:10px solid black;
+    padding-top:10px;
+    padding-left:20px;
+    padding-bottom:10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    /* box-sizing: content-box; */
+}
+*{
+    margin:0;
+}
