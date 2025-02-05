@@ -1,0 +1,14 @@
+div{
+    height:200px;
+    width:200px;
+    display: inline-block;
+}
+.item1{
+    background-color: blue;
+}
+.item2{
+    background-color: blueviolet;
+}
+.item3{
+    background-color: brown;
+}
