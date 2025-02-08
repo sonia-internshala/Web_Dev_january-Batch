@@ -1,4 +1,137 @@
-h1{
-    color: aqua;
-    background-color: brown;
+*{
+    margin:0;
 }
+html,body{
+    scroll-behavior: smooth;
+}
+#background{
+    background-image: url("https://i.pinimg.com/736x/a5/13/79/a513797cc82c47712207d2ad75451467.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(98, 212, 237); */
+    padding-left:30px;
+    padding-right:30px;
+    position:fixed;
+    top:20px;
+    width:90%;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:40%;
+}
+header h1,a{
+    color:white;
+    font-family: cursive;
+}
+header h1::first-letter{
+    color:red;
+}
+header nav a{
+    text-decoration: none;
+    font-size: x-large;
+}
+#home{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:640px;
+}
+#home div{
+    /* background-color: blueviolet; */
+    height: 250px;
+    width:700px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#home div h2,p{
+    color:white;
+    font-size:x-large;
+    font-family: cursive;
+}
+.btn{
+    color:white;
+    font-family: cursive;
+    background-color: red;
+    border-radius: 5px;
+    padding:20px;
+    /* width:100px;
+    height:50px; */
+}
+
+/* #about,#gallery,#contact,#team{
+    height:600px;
+    background-color: chartreuse;
+} */
+
+.btn:hover{
+    background:transparent;
+    border:1px solid red;
+}
+header nav a:hover{
+    text-decoration: underline;
+    color:red;
+    transition-duration:1s;
+    transform: scale(1.1) translateX(-6px);
+}
+
+#about #container{
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: 400px 600px;
+    grid-template-rows: 100px 400px;
+}
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height:600px;
+}
+#about #container #about-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    /* background-color: brown; */
+    color:red;
+    font-family: cursive;
+    font-size: xx-large;
+}
+
+#about #container #about-image{
+    background-color: rgb(195, 19, 107);
+}
+#about #container #about-image img{
+    height:100%;
+    width:100%;
+}
+
+
+#about #container #about-content{
+    background-color:white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    padding:40px;
+
+}
+
+
+#about #container #about-content h1,p{
+    font-family: cursive;
+    color:black;
+}
+
+
